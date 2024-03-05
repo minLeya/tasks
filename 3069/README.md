@@ -1,4 +1,4 @@
-3069. Distribute Elements Into Two Arrays I
+#3069. Distribute Elements Into Two Arrays I
 Tags: Easy Topics Companies Hint
 
 You are given a 1-indexed array of distinct integers nums of length n.
