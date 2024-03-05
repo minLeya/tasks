@@ -1,4 +1,4 @@
-#3069. Distribute Elements Into Two Arrays I
+# 3069. Distribute Elements Into Two Arrays I
 Tags: Easy Topics Companies Hint
 
 You are given a 1-indexed array of distinct integers nums of length n.
@@ -12,14 +12,14 @@ Return the array result.
 
  
 
-Example 1:
+Example 1:  
 
-Input: nums = [2,1,3]
-Output: [2,3,1]
-Explanation: After the first 2 operations, arr1 = [2] and arr2 = [1].
-In the 3rd operation, as the last element of arr1 is greater than the last element of arr2 (2 > 1), append nums[3] to arr1.
-After 3 operations, arr1 = [2,3] and arr2 = [1].
-Hence, the array result formed by concatenation is [2,3,1].
+Input: nums = [2,1,3]  
+Output: [2,3,1]  
+Explanation: After the first 2 operations, arr1 = [2] and arr2 = [1].  
+In the 3rd operation, as the last element of arr1 is greater than the last element of arr2 (2 > 1), append nums[3] to arr1.  
+After 3 operations, arr1 = [2,3] and arr2 = [1].  
+Hence, the array result formed by concatenation is [2,3,1].  
 
 
 Example 2:
