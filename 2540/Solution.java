@@ -1,18 +1,19 @@
-//accepted
 class Solution {
     public int getCommon(int[] nums1, int[] nums2) {
-        var commonNums = new ArrayList<Integer>();
+        int common = Integer.MAX_VALUE;
+        int i = 0;
+        int j = 0;
 
-        for(int i = 0; i < nums1.length; i++){
-            for(int j = 0; j < nums2.length; j++)
-            {
-                if(nums1[i] == nums2[j])
-                    commonNums.add(nums1[i]);
+        while ( i < nums1.length && j < nums2.length) {
+            if (nums1[i] == nums2[j]) {
+                common = nums1[i];
+                break;
+            } else if (nums1[i] < nums2[j]) {
+                i++;
+            } else {
+                j++;
             }
         }
-
-        Collections.sort(commonNums);
-        return commonNums.get(0);
-
+        return common != Integer.MAX_VALUE ? common : -1;
     }
 }
